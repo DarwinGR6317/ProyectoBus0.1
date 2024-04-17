@@ -13,8 +13,7 @@ class MainActivity : AppCompatActivity() {
         val btn_comenzar : Button = findViewById(R.id.btn_iniciar)
 
         btn_comenzar.setOnClickListener {
-
-            val  intent = Intent(this, Agendar::class.java).apply {
+            val intent = Intent(this,Agendar::class.java).apply{
 
             }
             startActivity(intent)
