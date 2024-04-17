@@ -127,6 +127,7 @@
             android:textStyle="bold"></TextView>
 
         <TextView
+            android:id="@+id/MartínHidalgo14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -164,6 +165,7 @@
             android:textStyle="bold"></TextView>
 
         <TextView
+            android:id="@+id/MartínHidalgo16"
             android:layout_width="114dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="130dp"

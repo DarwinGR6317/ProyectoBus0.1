@@ -58,11 +58,11 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/AAhualulco"
+            android:id="@+id/AAmatitan"
             android:layout_width="match_parent"
             android:layout_height="32dp"
             android:layout_marginTop="10dp"
-            android:text="A - Ahualulco del Mercado"
+            android:text="A - Amatitán"
             android:textColor="@color/white"
             android:textAlignment="center"
             android:textSize="28sp" />
@@ -112,7 +112,7 @@
             android:textStyle="bold"></TextView>
 
         <TextView
-            android:id="@+id/Ahualulco14"
+            android:id="@+id/Amatitan14"
             android:layout_width="114dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="130dp"
@@ -126,6 +126,7 @@
             android:textStyle="bold"></TextView>
 
         <TextView
+            android:id="@+id/Amatitan16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -163,7 +164,6 @@
             android:textStyle="bold"></TextView>
 
         <TextView
-            android:id="@+id/Ahualulco16"
             android:layout_width="114dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="130dp"
