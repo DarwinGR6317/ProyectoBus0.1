@@ -10,12 +10,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btn_comenzar : Button = findViewById(R.id.btn_iniciar)
+        val btn_iniciar : Button = findViewById(R.id.btn_iniciar)
 
-        btn_comenzar.setOnClickListener {
-            val intent = Intent(this,Agendar::class.java).apply{
-
-            }
+        btn_iniciar.setOnClickListener {
+            val intent = Intent(this,Agendar::class.java)
             startActivity(intent)
         }
     }
